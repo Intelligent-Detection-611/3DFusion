@@ -47,10 +47,10 @@ The converted directory format is as follows:
 ```
 
 ### 2. Training the 3D Fusion Network
+#### (Specific information is to be added.)
 ```shell
 python train_3D.py
 ```
-(Specific information is to be added.)
 
 ## To Testing
 ### (Specific information is to be added.)
