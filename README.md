@@ -3,7 +3,7 @@
 The initial version of 3DFusion modifies the traditional 2D multimodal image fusion network to enable training on 3D medical data in NIfTI format.
 
 
-## Recommended Environment(win10 1080Ti)
+## Recommended Environment
 
 To be continued...
 
@@ -29,6 +29,10 @@ python split_dataset.py
 
 Run the [rename.py](https://github.com/Intelligent-Detection-611/3DFusion/blob/main/utils/rename.py) script to rename the divided files to comply with the data loader’s reading specifications.
 
+```shell
+python rename.py
+```
+
 The converted directory format is as follows:
 ```shell
  nifti_train/
@@ -44,14 +48,14 @@ The converted directory format is as follows:
 
 ### 2. Training the 3D Fusion Network
 ```shell
-train_3D.py
+python train_3D.py
 ```
 (Specific information is to be added.)
 
 ## To Testing
 ### (Specific information is to be added.)
 ```shell
-python test_fusion_model.py --h5_path 'test_data/MSRS' --save_path 'results/fusion' --fusion_pretrained 'pretrained/fusion_model_epoch_29.pth'
+python test_fusion_model_3D.py 
 ```
 
 # TODO
