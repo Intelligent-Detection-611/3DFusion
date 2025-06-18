@@ -1,4 +1,4 @@
-# 3DFuion Version 0.1
+# 3DFusion Version 0.1
 
 The initial version of 3DFusion modifies the traditional 2D multimodal image fusion network to enable training on 3D medical data in NIfTI format.
 
