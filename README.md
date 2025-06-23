@@ -65,4 +65,3 @@ python test_fusion_model_3D.py
 ```
 
 ```
-test
